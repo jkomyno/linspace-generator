@@ -1,0 +1,38 @@
+{
+  "name": "linspace-generator",
+  "version": "0.1.0",
+  "description": "dependency-less MATLAB inspired generator of a linearly spaced vector of numbers",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "prebuild": "npm run clean && npm run lint",
+    "build": "tsc --declaration",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "test": "jest --coverage --verbose",
+    "test:ci": "npm run build && npm run test",
+    "watch-test": "npm run test -- --watchAll"
+  },
+  "keywords": [
+    "matlab",
+    "numerical analysis",
+    "generator",
+    "scientific"
+  ],
+  "files": [
+    "dist/"
+  ],
+  "author": "Alberto Schiabel <alberto.schiabel@gmail.com> (https://github.com/jkomyno)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^23.3.2",
+    "@types/node": "^10.9.4",
+    "almost-equal": "^1.1.0",
+    "is-equally-spaced": "^0.1.0",
+    "jest": "^23.6.0",
+    "rimraf": "^2.6.2",
+    "ts-jest": "^23.1.4",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.3"
+  }
+}
