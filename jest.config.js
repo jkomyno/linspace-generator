@@ -14,6 +14,6 @@ module.exports = {
 	testMatch: [
 		'**/test/**/*.test.(ts|js)'
 	],
-	setupTestFrameworkScriptFile: '<rootDir>/test/init.ts',
+	setupFilesAfterEnv: ['<rootDir>/test/init.ts'],
 	testEnvironment: 'node'
 };

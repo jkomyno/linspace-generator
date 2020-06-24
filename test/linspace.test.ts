@@ -21,6 +21,8 @@ describe('Linspace', () => {
     for (const item of linspaceGenerator(0, 1, 11)) {
       arr3.push(item);
     }
+
+    // @ts-ignore
     expect(arr3).toBeAlmostEqual([0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]);
     expect(isEquallySpaced(arr3).isEqual).toBe(true);
   });

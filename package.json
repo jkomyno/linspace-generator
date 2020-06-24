@@ -25,6 +25,7 @@
   "author": "Alberto Schiabel <alberto.schiabel@gmail.com> (https://github.com/jkomyno)",
   "license": "MIT",
   "devDependencies": {
+    "@types/almost-equal": "^1.1.0",
     "@types/jest": "^26.0.1",
     "@types/node": "^10.9.4",
     "almost-equal": "^1.1.0",
