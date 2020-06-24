@@ -25,14 +25,14 @@
   "author": "Alberto Schiabel <alberto.schiabel@gmail.com> (https://github.com/jkomyno)",
   "license": "MIT",
   "devDependencies": {
-    "@types/jest": "^23.3.2",
+    "@types/jest": "^26.0.1",
     "@types/node": "^10.9.4",
     "almost-equal": "^1.1.0",
-    "is-equally-spaced": "^0.1.0",
-    "jest": "^23.6.0",
+    "is-equally-spaced": "^0.2.0",
+    "jest": "^26.1.0",
     "rimraf": "^2.6.2",
-    "ts-jest": "^23.1.4",
+    "ts-jest": "^26.1.1",
     "tslint": "^5.11.0",
-    "typescript": "^3.0.3"
+    "typescript": "^3.9.5"
   }
 }
