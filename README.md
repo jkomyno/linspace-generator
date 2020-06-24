@@ -23,7 +23,7 @@ yarn add linspace-generator
 
 ## Typings
 
-This package is written in TypeScript and it is designed to be compatible with NodeJS 6+.
+This package is written in TypeScript.
 The following types are declared and exported:
 
 ```typescript
